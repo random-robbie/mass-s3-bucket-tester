@@ -1,0 +1,7 @@
+Hello from https://www.twitter.com/random_robbie - this is a proof of concept to check if your S3 bucket has incorrect permissions.
+
+Please secure your s3 bucket before a bad guy finds it!!
+
+DM's are open if you wish to chat.
+
+https://www.openbugbounty.org/researchers/Random_Robbie/ (little overview of me)
