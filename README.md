@@ -16,3 +16,7 @@ Output
 -----
 [![Capture.png](https://s9.postimg.org/m42gxkc5b/Capture.png)](https://postimg.org/image/rs8rogghn/)
 
+Use a VPS from DO
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=e22bbff5f6f1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
