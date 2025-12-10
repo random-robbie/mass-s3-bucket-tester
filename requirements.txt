@@ -1,5 +1,4 @@
-boto
-boto3
-colorama
-requests
-urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
+boto3>=1.26.0
+colorama>=0.4.6
+requests>=2.31.0
+urllib3>=2.6.0 # pinned by Snyk to avoid a vulnerability
