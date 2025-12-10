@@ -202,6 +202,12 @@ This tool is provided as-is for educational and authorized security testing purp
 - Original author: [@random-robbie](https://github.com/random-robbie)
 - Modernization improvements: Claude Sonnet 4.5
 
+## Recommended VPS Provider
+
+Need a VPS for security testing? Try DigitalOcean:
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=e22bbff5f6f1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 ---
 
 **Disclaimer**: The authors and contributors are not responsible for misuse of this tool. Users are solely responsible for ensuring they have proper authorization before testing any systems.
