@@ -25,6 +25,7 @@ class S3BucketTester:
 
     # Comprehensive region mapping for S3 bucket URLs
     REGION_PATTERNS = {
+        # US Regions
         r's3-website-us-east-1': 'us-east-1',
         r's3\.us-east-2\.amazonaws\.com': 'us-east-2',
         r's3\.amazonaws\.com': 'us-east-1',
@@ -32,21 +33,50 @@ class S3BucketTester:
         r's3\.us-west-2\.amazonaws\.com': 'us-west-2',
         r's3-us-west-2': 'us-west-2',
         r's3-website-us-west-2': 'us-west-2',
+        r's3\.us-gov-east-1\.amazonaws\.com': 'us-gov-east-1',
+        r's3\.us-gov-west-1\.amazonaws\.com': 'us-gov-west-1',
+
+        # Canada
         r's3\.ca-central-1\.amazonaws\.com': 'ca-central-1',
+        r's3\.ca-west-1\.amazonaws\.com': 'ca-west-1',
+
+        # Asia Pacific
         r's3\.ap-south-1\.amazonaws\.com': 'ap-south-1',
+        r's3\.ap-south-2\.amazonaws\.com': 'ap-south-2',
         r's3\.ap-southeast-1\.amazonaws\.com': 'ap-southeast-1',
         r's3\.ap-southeast-2\.amazonaws\.com': 'ap-southeast-2',
+        r's3\.ap-southeast-3\.amazonaws\.com': 'ap-southeast-3',
+        r's3\.ap-southeast-4\.amazonaws\.com': 'ap-southeast-4',
+        r's3\.ap-southeast-5\.amazonaws\.com': 'ap-southeast-5',
         r's3\.ap-northeast-1\.amazonaws\.com': 'ap-northeast-1',
         r's3-website-ap-northeast': 'ap-northeast-1',
         r's3\.ap-northeast-2\.amazonaws\.com': 'ap-northeast-2',
         r's3\.ap-northeast-3\.amazonaws\.com': 'ap-northeast-3',
+        r's3\.ap-east-1\.amazonaws\.com': 'ap-east-1',
+
+        # Europe
         r's3\.eu-central-1\.amazonaws\.com': 'eu-central-1',
+        r's3\.eu-central-2\.amazonaws\.com': 'eu-central-2',
         r's3-eu-west-1': 'eu-west-1',
         r's3\.eu-west-1\.amazonaws\.com': 'eu-west-1',
         r's3\.eu-west-2\.amazonaws\.com': 'eu-west-2',
         r's3\.eu-west-3\.amazonaws\.com': 'eu-west-3',
         r's3\.eu-north-1\.amazonaws\.com': 'eu-north-1',
+        r's3\.eu-south-1\.amazonaws\.com': 'eu-south-1',
+        r's3\.eu-south-2\.amazonaws\.com': 'eu-south-2',
+
+        # Middle East
+        r's3\.me-south-1\.amazonaws\.com': 'me-south-1',
+        r's3\.me-central-1\.amazonaws\.com': 'me-central-1',
+
+        # Africa
+        r's3\.af-south-1\.amazonaws\.com': 'af-south-1',
+
+        # South America
         r's3\.sa-east-1\.amazonaws\.com': 'sa-east-1',
+
+        # Israel
+        r's3\.il-central-1\.amazonaws\.com': 'il-central-1',
     }
 
     def __init__(self, aws_access_key: Optional[str] = None,
