@@ -2,21 +2,21 @@
 
 A Python 3 security tool for testing AWS S3 buckets for common misconfigurations including public directory listings, bucket availability, and upload permissions.
 
-**⚠️ For Authorized Security Testing Only** - Use this tool only on systems you own or have explicit permission to test.
+**For Authorised Security Testing Only** — Use this tool only on systems you own or have explicit permission to test.
 
 ## Features
 
-- ✅ **No AWS Credentials Required** - Tests for public misconfigurations without any credentials
-- 🚀 **Concurrent Testing** - Fast parallel processing with configurable worker threads
-- 🌍 **Comprehensive Region Support** - Supports all major AWS regions
-- 📊 **Multiple Test Types**:
+- **No AWS Credentials Required** — Tests for public misconfigurations without any credentials
+- **Concurrent Testing** — Fast parallel processing with configurable worker threads
+- **Comprehensive Region Support** — Supports all major AWS regions
+- **Multiple Test Types**:
   - Public directory listing detection
   - Bucket existence verification (NoSuchBucket detection)
   - Access permission checks (403 responses)
   - Optional upload permission testing (requires credentials)
-- 🎯 **Flexible Input** - Test single buckets or batch process from files
-- 📝 **Detailed Logging** - Organized output files for different findings
-- 🐍 **Modern Python 3** - Clean, maintainable code with boto3
+- **Flexible Input** — Test single buckets or batch process from files
+- **Detailed Logging** — Organised output files for different findings
+- **Modern Python 3** — Clean, maintainable code with boto3
 
 ## What It Detects
 
@@ -183,7 +183,7 @@ The tool generates three output files:
 
 ## Security & Legal Notice
 
-⚠️ **IMPORTANT**: This tool is designed for authorized security testing only.
+**IMPORTANT**: This tool is designed for authorised security testing only.
 
 - Only test buckets you own or have explicit written permission to test
 - Unauthorized testing of third-party S3 buckets may violate laws including:
@@ -197,7 +197,7 @@ The tool generates three output files:
 
 This tool is useful for:
 - Bug bounty programs with in-scope AWS infrastructure
-- Authorized penetration testing engagements
+- Authorised penetration testing engagements
 - Security assessments of your own infrastructure
 - Educational purposes in controlled environments
 
@@ -223,6 +223,10 @@ This tool is useful for:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Author
+
+Robbie Wiggins — [What-Security](https://www.what-security.co.uk) · [GitHub](https://github.com/random-robbie)
+
 ## License
 
 This tool is provided as-is for educational and authorized security testing purposes.
@@ -240,4 +244,8 @@ Need a VPS for security testing? Try DigitalOcean:
 
 ---
 
-**Disclaimer**: The authors and contributors are not responsible for misuse of this tool. Users are solely responsible for ensuring they have proper authorization before testing any systems.
+**Disclaimer**: The authors and contributors are not responsible for misuse of this tool. Users are solely responsible for ensuring they have proper authorisation before testing any systems.
+
+## Disclaimer / Authorised use
+
+This tool is intended for authorised security testing and responsible disclosure only. Do not use it against systems you do not own or have explicit permission to test.
