@@ -1,4 +1,4 @@
 boto3>=1.26.0
 colorama>=0.4.6
 requests>=2.31.0
-urllib3>=2.6.0 # pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0,<3.0.0
